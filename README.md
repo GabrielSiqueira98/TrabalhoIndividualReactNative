@@ -10,8 +10,15 @@ README.md: O arquivo README deve conter as seguintes informações:
 Imagem da tela original do aplicativo que você escolheu.
 Imagem da tela que você clonou (o layout que você fez).
 Data de Entrega: O trabalho deve ser entregue até o dia 18/11/2024 (segunda-feira).
+
+
 Original:
+
 <img src="https://github.com/user-attachments/assets/b8bddeff-d5dd-44e9-8dc4-3b007b827b49" alt="Print" width="300"/>
 
 
+trabalho:
+
+
+<img src="https://github.com/user-attachments/assets/4c4520ce-ae09-4ea1-bc4b-e701080f1837" alt="TRABALHO REACT NATIVE" width="300"/>
 
