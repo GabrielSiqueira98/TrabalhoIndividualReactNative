@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { Exercicios } from './src/components/Exercicios';
-import { MaterialCommunityIcons, FontAwesome, FontAwesome5, FontAwesome6, Ionicons, Foundation } from '@expo/vector-icons';
+import { MaterialCommunityIcons, Ionicons, Foundation } from '@expo/vector-icons';
 
 export function App() {
   return (
@@ -17,7 +17,6 @@ export function App() {
         <Text style={styles.modulo}>Avançado</Text>
       </View>
       
-      {/* <ScrollView style={styles.scrollContainer}> */}
         <Exercicios
           titulo="ABDÔMEN INICIANTE"
           duracao="20 MIN"
@@ -43,7 +42,6 @@ export function App() {
           imagem={require('./assets/PERNA.jpg')}
         />
       
-      {/* </ScrollView> */}
       <View style={styles.footer}>
         <View style={styles.footerIcone}>
           <MaterialCommunityIcons name="clock" size={24} color="blue" />
@@ -110,10 +108,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'blue',
     borderRadius: 4,
   },
-  scrollContainer: {
-    flex: 1,
-    top: -12,
-  },
+  
   footer: {
     height: 30,
     flexDirection: 'row',
